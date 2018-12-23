@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './HelloWorld';
+import VtexSearchForm from './VtexSearchForm.js';
 
 const theme = "f2 bg-blue white";
 
-ReactDOM.render(<HelloWorld theme={theme}/>, document.getElementById('root'));
+ReactDOM.render(<VtexSearchForm theme={theme}/>, document.getElementById('root'));
